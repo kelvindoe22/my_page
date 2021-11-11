@@ -1,16 +1,16 @@
 @font-face {
   font-family: "JetBrains";
-  src: url(/fonts/JetBrainsMono-Light.ttf);
+  src: url(fonts/JetBrainsMono-Light.ttf);
 }
 
 @font-face {
   font-family: "Josefin";
-  src: url(/fonts/JosefinSans-Medium.ttf);
+  src: url(fonts/JosefinSans-Medium.ttf);
 }
 
 @font-face {
   font-family: "Josefinlight";
-  src: url(/fonts/JosefinSans-Light.ttf);
+  src: url(fonts/JosefinSans-Light.ttf);
 }
 
 body {
