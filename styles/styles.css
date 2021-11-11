@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url(/fonts/JetBrainsMono-Light.ttf);
+}
+
+@font-face {
+  font-family: "Josefin";
+  src: url(/fonts/JosefinSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Josefinlight";
+  src: url(/fonts/JosefinSans-Light.ttf);
+}
+
+body {
+  color: white;
+  background: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.main-content {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Jetbrains",serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.wrapper * {
+  margin-bottom: 2rem;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+
+.wrapper a:hover {
+  color: fuchsia;
+}
+
+#logo-text {
+  color: fuchsia;
+  font-size: 3.5rem;
+}
+
+#logo-text span {
+  -webkit-animation: blink 0.8s ease-in-out alternate infinite;
+          animation: blink 0.8s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.image-links * {
+  margin-right: 0.7rem;
+}
+
+@media screen and (max-width: 740px) {
+  #skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0;
+  }
+  #skills div {
+    margin-bottom: 0.1rem;
+  }
+}
+
+#about {
+  font-family: "Josefin";
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  padding-top: 2rem;
+}
+
+#about div {
+  padding-bottom: 6rem;
+}
+
+.small-text {
+  font-size: 1.5rem;
+  color: rgba(247, 0, 255, 0.699);
+}
+
+.big-text {
+  font-size: 2rem;
+}
+
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin-left: 5rem;
+}
+
+#skills div {
+  margin-right: 2rem;
+}
+
+#skills h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.main {
+  color: fuchsia;
+}
+
+#skills p {
+  font-family: "Josefinlight";
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 740px) {
+  #skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0;
+  }
+  #skills div {
+    margin-bottom: 0.1rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

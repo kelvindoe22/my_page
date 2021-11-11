@@ -1,0 +1,60 @@
+.main-content{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Jetbrains",serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.wrapper *{
+    margin-bottom: 2rem;
+}
+
+.wrapper ul{
+    list-style: none;
+}
+
+.wrapper a:hover{
+    color: fuchsia;
+}
+
+#logo-text{
+    color: fuchsia;
+    font-size: 3.5rem;
+}
+
+#logo-text span{
+    animation: blink 0.8s ease-in-out alternate infinite;
+}
+
+@keyframes blink {
+    from{
+        opacity: 0;
+    } to{
+        opacity: 100;
+    }
+}
+
+
+
+.image-links *{
+    margin-right: 0.7rem;
+}
+
+@media screen and (max-width : 740px) {
+    #skills{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #skills div{
+        margin-bottom: 0.1rem;
+    }
+}

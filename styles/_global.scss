@@ -1,0 +1,19 @@
+body{
+    color: white;
+    background: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: $p-text;
+}

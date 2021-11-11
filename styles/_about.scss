@@ -1,0 +1,57 @@
+#about{
+    font-family: "Josefin";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    padding-top: 2rem;
+}
+
+#about div{
+    padding-bottom: 6rem;
+}
+
+.small-text{
+    font-size: 1.5rem;
+    color: rgba(247, 0, 255, 0.699);
+}
+
+.big-text {
+    font-size: 2rem;
+}
+
+#skills{
+    display: flex;
+    width: 60%;
+    margin-left: 5rem;
+}
+
+#skills div{
+    margin-right: 2rem;
+}
+
+#skills h4{
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.main{
+    color: fuchsia;
+}
+
+#skills p{
+    font-family: "Josefinlight";
+    font-size: 1rem;
+}
+
+@media screen and (max-width : 740px) {
+    #skills{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #skills div{
+        margin-bottom: 0.1rem;
+    }
+}

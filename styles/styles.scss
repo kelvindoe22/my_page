@@ -1,0 +1,20 @@
+$p-text: 1.5rem;
+
+@font-face {
+    font-family: "JetBrains";
+    src: url(/fonts/JetBrainsMono-Light.ttf);
+}
+
+@font-face {
+    font-family: "Josefin";
+    src: url(/fonts/JosefinSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Josefinlight";
+    src: url(/fonts/JosefinSans-Light.ttf);
+}
+
+@import "global";
+@import "main";
+@import "about";
